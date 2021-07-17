@@ -240,7 +240,6 @@ def main(cfg: DictConfig):
         logger=wandb_logger,
     )
     trainer.fit(model, data_module)
-    wandb_logger.finalize()
 
 
 if __name__ == "__main__":
