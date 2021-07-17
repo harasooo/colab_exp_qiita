@@ -1,0 +1,111 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.11.0
+    framework: huggingface
+    huggingface_version: 4.8.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: train_loss
+      5: 1
+      6:
+      - 1
+    - 1: train_accuracy
+      5: 1
+      6:
+      - 1
+    - 1: train_auroc
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: val_loss
+      5: 1
+      6:
+      - 1
+    - 1: val_accuracy
+      5: 1
+      6:
+      - 1
+    - 1: val_auroc
+      5: 1
+      6:
+      - 1
+    python_version: 3.7.11
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 11
+      2:
+      - 1
+      - 5
+      - 9
+      - 11
+      3:
+      - 3
+      - 7
+      4: 3.7.11
+      5: 0.11.0
+      6: 4.8.2
+      8:
+      - 5
+callbacks/patience:
+  desc: null
+  value: 5
+callbacks/patience_min_delta:
+  desc: null
+  value: 0
+model/d_model:
+  desc: null
+  value: 768
+model/max_length:
+  desc: null
+  value: 512
+model/n_classes:
+  desc: null
+  value: 9
+path/checkpoint_path:
+  desc: null
+  value: checkpoints
+path/data_file_name:
+  desc: null
+  value: /content/drive/MyDrive/colab_exp/data/livedoor.tsv
+training/batch_size:
+  desc: null
+  value: 32
+training/label_column_name:
+  desc: null
+  value: label
+training/learning_rate:
+  desc: null
+  value: 0.01
+training/n_epochs:
+  desc: null
+  value: 10
+training/test_size:
+  desc: null
+  value: 0.3
+training/text_column_name:
+  desc: null
+  value: article
+wandb/exp_num:
+  desc: null
+  value: 1
+wandb/project:
+  desc: null
+  value: colab_exp_qiita
+wandb/tags:
+  desc: null
+  value:
+  - bert

@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.104+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-07-17T12:38:16.042057",
+    "startedAt": "2021-07-17T12:38:13.088246",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://harasooo:@github.com/harasooo/colab_exp_qiita.git",
+        "commit": "d61f42d7770737c03a2b1e0ea6dc236c9ecbd348"
+    },
+    "email": "soichiro.basuketo@gmail.com",
+    "root": "/content/drive/My Drive/colab_exp/colab_exp_src",
+    "host": "f610f4c994ea",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}
