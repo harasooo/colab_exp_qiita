@@ -1,0 +1,1 @@
+{"train_loss": 0.30840596556663513, "train_accuracy": 0.8942978978157043, "train_auroc": 0.9874858856201172, "epoch": 9, "trainer/global_step": 1619, "_runtime": 1506, "_timestamp": 1626529556, "_step": 19, "val_loss": 0.4452502727508545, "val_accuracy": 0.8661239147186279, "val_auroc": 0.9807446599006653}

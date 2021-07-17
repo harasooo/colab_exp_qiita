@@ -1,0 +1,146 @@
+wandb logger :/content/drive/My Drive/colab_exp/colab_exp_src/exp_2/outputs/2021-07-17/13-20-50/wandb/run-20210717_132050-28biy3ng/files
+[2021-07-17 13:20:55,038][numexpr.utils][INFO] - NumExpr defaulting to 2 threads.
+Some weights of the model checkpoint at cl-tohoku/bert-base-japanese-whole-word-masking were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Validation sanity check:   0% 0/2 [00:00<?, ?it/s]
+  | Name       | Type             | Params
+------------------------------------------------
+0 | bert       | BertModel        | 110 M
+1 | classifier | Linear           | 6.9 K
+2 | criterion  | CrossEntropyLoss | 0
+------------------------------------------------
+7.1 M     Trainable params
+103 M     Non-trainable params
+110 M     Total params
+
+
+
+
+
+
+Epoch 0:  78% 180/232 [01:47<00:31,  1.68it/s, loss=0.81, v_num=y3ng]
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.88it/s]
+
+
+
+
+
+
+
+Epoch 1:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.685, v_num=y3ng]
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.88it/s]
+
+
+
+
+
+
+
+Epoch 2:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.417, v_num=y3ng]
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.89it/s]
+
+
+
+
+
+
+
+Epoch 3:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.517, v_num=y3ng]
+
+
+
+Validating:  86% 60/70 [00:31<00:05,  1.90it/s]
+
+
+
+
+
+
+Epoch 4:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.37, v_num=y3ng]
+
+
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.88it/s]
+
+
+
+
+
+
+Epoch 5:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.419, v_num=y3ng]
+
+
+
+Validating:  86% 60/70 [00:31<00:05,  1.90it/s]
+
+
+
+
+
+Epoch 6:  78% 180/232 [01:47<00:31,  1.68it/s, loss=0.388, v_num=y3ng]
+
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.88it/s]
+
+
+
+
+
+
+Epoch 7:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.388, v_num=y3ng]
+
+
+
+Validating:  86% 60/70 [00:31<00:05,  1.90it/s]
+
+
+
+
+
+
+Epoch 8:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.36, v_num=y3ng]
+
+
+
+
+Validating: 100% 70/70 [00:37<00:00,  1.88it/s]
+
+
+
+
+
+
+Epoch 9:  78% 180/232 [01:47<00:31,  1.67it/s, loss=0.334, v_num=y3ng]
+
+
+
+Validating:  86% 60/70 [00:31<00:05,  1.90it/s]
+
+Epoch 9: 100% 232/232 [02:29<00:00,  1.55it/s, loss=0.238, v_num=y3ng]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve sub directories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+[34m[1mwandb[39m[22m: [33mWARNING[39m Symlinked 0 file into the W&B run directory, call wandb.save again to sync new files.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "main.py", line 243, in main
+    wandb_logger.finalize()
+  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/utilities/distributed.py", line 49, in wrapped_fn
+    return fn(*args, **kwargs)
+TypeError: finalize() missing 1 required positional argument: 'status'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
