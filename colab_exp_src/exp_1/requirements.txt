@@ -1,0 +1,6 @@
+transformers
+torch
+pytorch-lightning
+hydra-core
+wandb
+torchmetrics
